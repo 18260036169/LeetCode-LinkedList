@@ -6,6 +6,7 @@ public:
         
         // 模板：while ( ... )
         while ( cur ) {
+        // 模板：给下一次要去干活的房子涂上一个标记
             ListNode *temp = cur->next;
             cur->next = pre;
             pre = cur;
